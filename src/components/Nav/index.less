@@ -1,0 +1,60 @@
+
+.wrap {
+  width: 1000px;
+  height: 52px;
+  margin: 0 auto;
+  overflow: hidden;
+  display: flex;
+  line-height: 52px;
+  justify-content: space-between;
+  color: rgba(255, 255, 255, .8);
+  font-style: normal;
+  font-size: 14px;
+  .left {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    .icon {
+      width: 124px;
+      height: 20px;
+      background-image: url("https://img.alicdn.com/tfs/TB1Zv8_lxSYBuNjSspjXXX73VXa-390-63.png");
+      background-size: cover;
+      display: block;
+    }
+    .d {
+      height: 30px;
+      width: 2px;
+      background: rgba(255, 255, 255, .8);
+      margin: 0 10px;
+    }
+    .txt{
+      margin-right: 10px;
+    }
+    .navs {
+      .nav {
+        height: 40px;
+        line-height: 40px;
+        margin-left: 5px;
+        padding: 10px 20px;
+        color: rgba(255, 255, 255, .8);
+        &:hover {
+          color: #F37327;
+        }
+      }
+      .nav1{
+        .nav;
+        color: #F37327;
+      }
+    }
+  }
+  .right {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    div,a{
+      font-size: 12px;
+      color: rgba(255, 255, 255, .8);
+    }
+  }
+}
